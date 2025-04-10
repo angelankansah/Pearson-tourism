@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: rgb(6, 154, 139);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    height: 90px;
+    width: 100%;
+}
+
+/* Logo Styles */
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px bold;
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+}
+/* Nav Styles */
+nav{
+    display: flex;
+    text-decoration: none;
+    margin: 20px;
+    margin-right: 150px;
+}
+
+nav ul{
+    font-family: HelveticaNowDisplay-Regular;
+    font-size: medium;
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+nav ul li{
+    margin: 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 25px;
+}
+
+nav ul li a:hover{
+    color: rgb(16, 66, 61);
+    text-decoration: underline;
+}
+
+.nav-button{
+    background-color: rgb(6, 154, 139);
+    border: none;
+    height: 50px;
+    width: 160px;
+    position: relative;
+    color:white  ;
+    border: white solid 2px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    right: 10px;
+    margin-top: 15px;
+}
+
+.nav-button:hover{
+    background-color: rgb(16, 66, 61);
+    color: white;
+    transform: scale(1);
+    transition: 2s;
+    border: solid #e0dbdb 2px;
+}
+
+/* gallery */
+#gallery {
+    padding: 80px 10%;
+    background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
+    text-align: center;
+}
+
+#gallery-bg {
+    text-align: center;
+    font-size: 30px;
+   background-image: url(gallery.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 50vh;
+}
+
+#gallery h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    color: blue;
+}
+
+#gallery .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 50px;
+    color: white;
+    padding-left: 50px;
+}
+.footer{
+    background-color: rgb(16, 66, 61);
+height: 30vh;
+text-decoration: none;
+}
+
+.footer1{
+    height: 30vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.link1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+   
+}
+.link1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    gap: 10px;
+}
+.link2 label{
+line-height: 30px;
+color: white;
+}
+.link2 h5{
+color: white;
+font-size: 30px;
+padding-bottom: 10px;
+}
+
+.logo5 img{
+    height: 120px;
+    border-radius: 50%;
+}
+.link11{
+    display: flex;
+    flex-direction: column;
+   
+}
+.link11 h5{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+.link11 ul li{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+    gap: 15px;
+}
